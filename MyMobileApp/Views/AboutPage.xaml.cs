@@ -11,5 +11,12 @@ namespace MyMobileApp.Views
         {
             InitializeComponent();
         }
+        public void HandleClick(Object sender, EventArgs args) {
+            var lavb = new Label();
+            lavb.Text = "adfgadfgad;";
+            bbbu.Text = "done";
+            Console.WriteLine("Clicked sdfds !!!@");
+            stach.Children.Insert(1,lavb);
+        }
     }
 }
